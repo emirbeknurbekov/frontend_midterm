@@ -5,6 +5,7 @@ import logo from "./img/logo_aiu.png";
 const TextArea = () => {
   const [word, setWord] = useState("");
   const [bgColor, setBgColor] = useState(getRandomColor());
+
   const [textColor, setTextColor] = useState("black");
   const [inpColor, setInpColor] = useState("");
 

@@ -35,7 +35,7 @@
 }
 
 .logo {
-  animation: spin 4s linear infinite, fade-in 2s ease;
+  animation: spin 4s linear infinite, fade-in 4s ease;
 }
 @keyframes spin {
   0% {
@@ -56,9 +56,12 @@
 }
 .inp-bg {
   width: 200px;
+  padding: 5%;
 }
 .inp-fc {
   width: 200px;
+  padding: 5%;
+  margin-bottom: 3%;
 }
 
 .font-change__block__main {
@@ -66,6 +69,11 @@
   justify-content: start;
   align-items: center;
   gap: 5%;
+}
+.font-change__btn {
+  border-radius: 10px;
+  padding: 2%;
+  color: burlywood;
 }
 
 @media all and (max-width: 915px) {

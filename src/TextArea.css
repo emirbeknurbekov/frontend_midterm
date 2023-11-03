@@ -1,11 +1,40 @@
 .container {
+  width: 100%;
+
+  height: 100vh;
+}
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+}
+.logo__block {
+  margin: 0 auto;
+  padding-top: 2%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 50px;
+  align-items: center;
+  gap: 40px;
 }
+.header {
+  font-size: 20px;
+  margin-bottom: 2%;
+}
+.main-block {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10%;
+}
+
 .logo {
-  width: 10%;
   animation: spin 4s linear infinite, fade-in 2s ease;
 }
 @keyframes spin {
@@ -25,6 +54,22 @@
     opacity: 1;
   }
 }
-input {
-  width: 15%;
+.inp-bg {
+  width: 200px;
+}
+.inp-fc {
+  width: 200px;
+}
+
+.font-change__block__main {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5%;
+}
+
+@media all and (max-width: 915px) {
+  .wrapper {
+    flex-direction: column;
+  }
 }

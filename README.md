@@ -17,7 +17,10 @@ Project Structure
 The project is structured cleanly and follows best practices for React development. It's divided into components, styles, and assets.
 
 ## Screenshots
-Screenshot
+![Снимок экрана (68)](https://github.com/emirbeknurbekov/frontend_midterm/assets/91878899/2bc421e2-5232-486f-abfb-0f9828cd37be)
+![Снимок экрана (67)](https://github.com/emirbeknurbekov/frontend_midterm/assets/91878899/a4f3fd8b-f00b-44e3-99b9-3303c05c8faa)
+
+
 
 ## Installation
 Clone the repository.

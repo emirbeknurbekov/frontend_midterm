@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/frontend_midterm/static/css/main.21ba8ec7.css",
+    "main.js": "/frontend_midterm/static/js/main.22547580.js",
+    "static/media/logo_aiu.png": "/frontend_midterm/static/media/logo_aiu.881188ff1e3737218212.png",
+    "index.html": "/frontend_midterm/index.html",
+    "main.21ba8ec7.css.map": "/frontend_midterm/static/css/main.21ba8ec7.css.map",
+    "main.22547580.js.map": "/frontend_midterm/static/js/main.22547580.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21ba8ec7.css",
+    "static/js/main.22547580.js"
+  ]
+}
